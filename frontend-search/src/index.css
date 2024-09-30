@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#dataTable {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.table-position {
+  box-sizing: border-box;
+  width: 30rem;
+  position: relative;
+  left: 26rem;
+  border: 2px solid;
+  margin-top: 10px;
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+th,
+td {
+  /* padding: 10px; */
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td{
+  width: 30rem;
+}

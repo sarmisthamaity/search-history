@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-app.use('/movie', indexRoute);
+app.use('/api', indexRoute);
 
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`)
